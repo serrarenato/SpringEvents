@@ -24,5 +24,6 @@ public class App {
 
 		cvp.publish();
 		cvp.publish();
+		cvp.publish2();
 	}
 }
