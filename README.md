@@ -8,19 +8,22 @@ Java 8
 Maven 3.x
 
 ### Getting Started
-1. Clone the repository
+* Clone the repository
 
-2. Run `mvn clean install`
+* Run `mvn clean install`
 
-3. Start the order service on port 8080 by running:
+* Start the order service on port 8080 by running:
 `java -jar target/events.jar`
-4. Do a call to localhost:8080/ - verb Post with body:
- 
+* Add a new employee to database: 
+    * POST http://localhost:8080
+
+```json 
 {
 	"name":"Renato",
 	"age":27,
 	"email":"serra@13.com.br"
 }
+```
 
 ### Authors
-Renato Serra - Initial work - Event
+Renato Serra - Initial work - Event - https://github.com/serrarenato/SpringEvents
