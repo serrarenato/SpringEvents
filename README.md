@@ -1,7 +1,10 @@
-## Exemplo do Spring Event que utiliza o padrão Observable para notificações
+## Simple example of Spring Event
 
+This API received one Employee, save in database and send one event.
 
-Prerequisites
+There are two subscribe to handler the event one of then send email and another to register a log.
+
+### Prerequisites
 In order to build and run the example application you need:
 
 Java 8
