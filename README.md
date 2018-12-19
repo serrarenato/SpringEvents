@@ -14,6 +14,13 @@ Maven 3.x
 
 3. Start the order service on port 8080 by running:
 `java -jar target/events.jar`
+4. Do a call to localhost:8080/ - verb Post with body:
+ 
+{
+	"name":"Renato",
+	"age":27,
+	"email":"serra@13.com.br"
+}
 
 ### Authors
 Renato Serra - Initial work - Event
