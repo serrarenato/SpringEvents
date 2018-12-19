@@ -4,12 +4,16 @@
 Prerequisites
 In order to build and run the example application you need:
 
-Java 7
+Java 8
 Maven 3.x
 
 ### Getting Started
 1. Clone the repository
 
-1. Run `mvn clean install`
+2. Run `mvn clean install`
 
-1. Start the order service on port 8080 by running
+3. Start the order service on port 8080 by running:
+`java -jar target/events.jar`
+
+### Authors
+Renato Serra - Initial work - Event
